@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>HTML5 Audio Sequencer</title>
+		<link rel="shortcut icon" href="favicon.ico"/>
+		<link rel="stylesheet" type="text/css" href="sequencer.css"/>
+		<script type="text/javascript" src="sequencer.js"></script>
+	</head>
+	<body>
+		<header>
+			<h1>HTML5 Audio Sequencer</h1>
+		</header>
+		<article id="howto">
+			<section>
+				<p>
+					<strong>Create a melody</strong> by clicking the nodes below to turn them <strong>on</strong> and <strong>off</strong>.
+				</p>
+			</section>
+			<section>
+				<p>
+					<strong>Adjust the loudness</strong> of a node by clicking and dragging it <strong>up</strong> or <strong>down</strong>.
+				</p>
+			</section>
+			<section>
+				<p>
+					<strong>Share your creation</strong> using the URL in the address bar above. It's updated with <strong>every change you make</strong>. 
+				</p>
+			</section>
+		</article>
+		<a href="javascript:init();" id="trigger"></a>
+		<div id="loadbar">
+			Loading...
+		</div>
+		<div id="container">
+			<div id="note-labels"></div>
+			<div id="grid"></div>
+		</div>
+	</body>
+</html>
